@@ -1,0 +1,13 @@
+.contacts__wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    .contacts__item{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        align-items: center;
+        gap: 20px;
+    }
+}
