@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba31af08.css",
-    "main.js": "/portfolio/static/js/main.f0e3ba16.js",
+    "main.css": "/portfolio/static/css/main.69b14836.css",
+    "main.js": "/portfolio/static/js/main.bfc22546.js",
     "static/js/453.ad6eb26e.chunk.js": "/portfolio/static/js/453.ad6eb26e.chunk.js",
-    "static/media/IMG_20201206_123723 copy.png": "/portfolio/static/media/IMG_20201206_123723 copy.975cd63f048a68fc969d.png",
+    "static/media/2.jpg": "/portfolio/static/media/2.913f5bb68460432fa48b.jpg",
     "static/media/aboutFork.jpg": "/portfolio/static/media/aboutFork.e4cff8ef37e32a3bb866.jpg",
     "static/media/letters.jpg": "/portfolio/static/media/letters.559f942b766d48029220.jpg",
     "static/media/people.jpg": "/portfolio/static/media/people.58c5a5efca11dc23e1da.jpg",
@@ -22,12 +22,12 @@
     "static/media/telegram.svg": "/portfolio/static/media/telegram.1f64ace5a6dcedbc051fb24a0ff902aa.svg",
     "index.html": "/portfolio/index.html",
     "static/media/email.svg": "/portfolio/static/media/email.90cfb1c8b2258cd0b2ec30fbc606fe91.svg",
-    "main.ba31af08.css.map": "/portfolio/static/css/main.ba31af08.css.map",
-    "main.f0e3ba16.js.map": "/portfolio/static/js/main.f0e3ba16.js.map",
+    "main.69b14836.css.map": "/portfolio/static/css/main.69b14836.css.map",
+    "main.bfc22546.js.map": "/portfolio/static/js/main.bfc22546.js.map",
     "453.ad6eb26e.chunk.js.map": "/portfolio/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba31af08.css",
-    "static/js/main.f0e3ba16.js"
+    "static/css/main.69b14836.css",
+    "static/js/main.bfc22546.js"
   ]
 }
