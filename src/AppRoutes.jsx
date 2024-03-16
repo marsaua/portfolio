@@ -16,12 +16,12 @@ const AppRoutes = () => {
         <main className="container page">    
             <NavMenu/>
             <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/protect" element={<ProtectPage/>} />
-                <Route path="/appointment" element={<AppointmentPage/>} />
-                <Route path="/fork" element={<ForkPage/>} />
-                <Route path="/ham" element={<HamPage/>} />
-                <Route path="/contacts" element={<Contacts/> }/>
+                <Route path="/portfolio" element={<HomePage />} />
+                <Route path="/portfolio/protect" element={<ProtectPage/>} />
+                <Route path="/portfolio/appointment" element={<AppointmentPage/>} />
+                <Route path="/portfolio/fork" element={<ForkPage/>} />
+                <Route path="/portfolio/ham" element={<HamPage/>} />
+                <Route path="/portfolio/contacts" element={<Contacts/> }/>
             </Routes>
         </main>    
        
