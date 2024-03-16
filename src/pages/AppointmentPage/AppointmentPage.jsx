@@ -43,7 +43,7 @@ const AppointmentPage = () => {
                     id="2"
                     isScale={scale}
                     imgSrc={newApp}
-                    description='In the personal page, users can create appointment cards to doctors. The information collected by the form varies depending on the selected specialist.'
+                    description='On the personal page, users can create appointment cards for doctor visits. The information collected by the form varies depending on the selected specialist.'
                 />
                 <DataItem
                     handleImg={(id) => handleImg(id)}

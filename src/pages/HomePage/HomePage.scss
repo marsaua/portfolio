@@ -3,17 +3,39 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    @media(width<1270px) {
+            justify-content: center;
+        }
     .home__photo{
         width: 100%;
         max-width: 550px;
         position: relative;
+        @media(width<1270px) {
+            margin-top: 50px;
+        }    
         .dascription__title{
             font-family: "Open Sans", sans-serif;
-            min-width: 500px;
+            // min-width: 500px;
+            width: 80%;
             position: absolute;
             font-size: 50px;
             top: 50%;
             right: 70%;
+            @media(width<1270px){
+            font-size: 35px;
+            background-color: rgb(255, 255, 255, 0.4);
+            right: 0;
+            }
+            @media(width<770px) {
+                font-size: 25px;
+            }
+            @media(width<570px) {
+                font-size: 20px;
+                position: inherit;
+                padding: 5px 10px;
+                margin-top: 20px;
+            }
+
         }
         .dascription__title-name{
             font-weight: 600;
@@ -22,6 +44,17 @@
         .img{
             width: 80%;
             border-radius: 30px;
+            // @media(width<1270px) {
+            //     margin: 0 auto;
+            // }
         }
+    }
+}
+.aboutme__text {
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    @media(width<770px) {
+        font-size: 16px;
     }
 }

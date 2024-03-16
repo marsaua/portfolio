@@ -3,10 +3,53 @@
     // transform: translate(0, 50vh);
     display: flex;
     flex-direction: column;
-    align-items: end;;
+    align-items: end;
     gap: 50px;
+    .portfolio {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 60px;
+    }
+    @media(width<1270px) {
+            gap: 15px;
+        margin-top: 20px;
+        }
+    @media(width<770px) {
+        gap: 10px;
+        flex-direction: row;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+    .mobile__nav{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 50px;
+    }
+    @media(width<665px) {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        top: 20px;
+        left: 0;
+    }
+
     .nav__item{
         font-size: 30px;
+        @media(width<1270px) {
+                font-size: 25px;
+            }
+        @media(width<770px) {
+            font-size: 12px;
+        }
+
+        @media(width<665px) {
+            font-size: 25px;
+        }
     }
     .nav__item{
         transition: 0.3s;
@@ -20,6 +63,7 @@
     }
     .nav__item:hover {
         transform: scale(1.5);
+        
     }
     .nav__protect{
         .nav__item__link{
@@ -31,6 +75,9 @@
 }
 .active {
     transform: scale(1.5);
+    // position: relative; // Додаємо позиціонування для збереження центру
+    //     left: 10%; // Переміщуємо елемент в горизонтальному напрямку на 50%
+    //     top: 0;
     a{
         color: red;
     }
@@ -43,4 +90,78 @@
     width: 100%;
     height: 30vh;
     background-color: rgba(255, 180, 180, 0.3);
+}
+
+
+
+nav {
+    @media(width<665px){
+        width: 100%;
+        height: 5em;
+        position: sticky;
+        background-color: rgb(255, 255, 255, 0.6);
+        display: flex;
+        justify-content: flex-start;
+        padding: 1em;
+    }
+}
+
+.burger-menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 3em;
+    width: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 4em;
+    height: 0.5em;
+    background-color: rgb(34, 41, 44);
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }

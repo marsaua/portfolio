@@ -53,7 +53,7 @@ const HamPage = () => {
                     id="3"
                     isScale={scale}
                     imgSrc={people}
-                    description='"What People Say About the Ham" - dynemic section with comments. Done using an array of data. Switch between users works ин сlicking on the photo or arrows.'
+                    description='"What People Say About the Ham" - dynamic section with comments. Made by using an array of data. Switch between users works by сlicking on the photo or arrows.'
                 />
             </div>
             

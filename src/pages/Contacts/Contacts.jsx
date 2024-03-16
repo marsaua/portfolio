@@ -12,7 +12,7 @@ const Contacts = () => {
             <h3 className="page__name">Contacts</h3>
             <div className="contacts__item">
                 <Phone />
-                <p>+38098 288 4618</p>
+                <a href="tel:+380982884618">+38098 288 4618</a>
             </div>
             <div className="contacts__item">
                 <Telegram />
@@ -20,7 +20,7 @@ const Contacts = () => {
             </div>
             <div className="contacts__item">
                 <Linkedin />
-                <a href="https://linkedin.com/in/svitlana-bilokin-291a38292">linkedin.com</a>
+                <a target="blank" href="https://www.linkedin.com/in/svitlana-bilokin-291a38292/">linkedin.com</a>
             </div>
             <div className="contacts__item">
                 <Email/>
