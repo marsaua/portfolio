@@ -84,8 +84,11 @@ body {
         object-fit: cover;
         cursor: pointer;
         transition: 0.5s;
+        border:1px solid black
     }
-
+        .item__img:hover{
+            box-shadow: 5px 10px 5px rgb(161, 161, 161);
+        }
     .active {
         transform: scale(3.5);
     }

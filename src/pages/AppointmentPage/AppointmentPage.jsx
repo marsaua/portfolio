@@ -22,7 +22,7 @@ const AppointmentPage = () => {
         <section className="wrapper">
             <div className="page__title">
                 <h3 className="page__name">Doctor's Appointment</h3>
-                <a className="page__link" href="https://marsaua.github.io/page-project-3/">https://marsaua.github.io/page-project-3/</a>
+                <a className="page__link" target="blank" href="https://marsaua.github.io/page-project-3/">https://marsaua.github.io/page-project-3/</a>
 
             </div>
             <p className="about__page">The "doctor's appointment" system was developed using JS with class components. The team comprised three members and the project was executed through seamless collaboration, maintaining constant online communication throughout. The project was compiled using Gulp.</p>

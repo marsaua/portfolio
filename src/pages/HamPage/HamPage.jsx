@@ -23,7 +23,7 @@ const HamPage = () => {
         <section className="wrapper">
             <div className="page__title">
                 <h3 className="page__name">The Ham</h3>
-                <a className="page__link" href="https://marsaua.github.io/stepProject-fist/">https://marsaua.github.io/stepProject-fist/</a>
+                <a className="page__link" target="blank" href="https://marsaua.github.io/stepProject-fist/">https://marsaua.github.io/stepProject-fist/</a>
 
             </div>
             <div className="protect__content">

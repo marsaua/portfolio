@@ -21,7 +21,7 @@ const ForkPage = () => {
         <section className="wrapper">
             <div className="page__title">
                 <h3 className="page__name">Fork App</h3>
-                <a className="page__link" href="https://marsaua.github.io/step-project-two">https://marsaua.github.io/step-project-two</a>
+                <a className="page__link" target="blank" href="https://marsaua.github.io/step-project-two">https://marsaua.github.io/step-project-two</a>
             </div>
             <p className="about__page">The page demonstrates the possibilities of adaptive layout. The project was made by two members. The project was compiled using Gulp.</p>
             <div className="protect__content">

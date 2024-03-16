@@ -25,7 +25,7 @@ const ProtectPage = () => {
         <section className="wrapper">
             <div className="page__title">
                 <h3 className="page__name">Protect shop</h3>
-                <a className="page__link" href="https://protect-shop-pmdi.vercel.app/">https://protect-shop-pmdi.vercel.app/</a>
+                <a className="page__link" target="blank" href="https://protect-shop-pmdi.vercel.app/">https://protect-shop-pmdi.vercel.app/</a>
 
             </div>
             <p className="about__page">The main project, member I was - is the Protect online store. The project is a one-page online store, has backend and is adaptive. My parts was: authorization and registration, customer's personal account, administrator's personal account (receive letters, receive and manipulate orders, create new products and change existing products); add and remove products from the favorite list with rendering of the page for favorite products for regular users and guest; add goods for the guest and render them in the cart; sections "popular products", hero, "we are in instagram", footer. Were used such technologies : React, redux, Swiper, formik, yup, SCSS. The store is almost ready for real use. Below you can see the main tasks that the author did.</p>
